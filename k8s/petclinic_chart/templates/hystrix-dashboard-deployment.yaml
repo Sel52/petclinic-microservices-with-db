@@ -31,7 +31,7 @@ spec:
           name: hystrix-dashboard
           ports:
             - containerPort: 7979
-          resources: {},
+          resources: {}
       initContainers:
         - name: init-discovery-server
           image: busybox
