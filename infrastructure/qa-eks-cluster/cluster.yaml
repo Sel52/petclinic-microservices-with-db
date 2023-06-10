@@ -4,7 +4,7 @@ kind: ClusterConfig
 metadata:
   name: petclinic-cluster
   region: us-east-1
-availabilityZones: ["us-east-1a", "us-east-1b", "us-east-1c"]
+availabilityZones: ["us-east-1a", "us-east-1b", "us-east-1c , "us-east-1d"]
 managedNodeGroups:
   - name: ng-1
     instanceType: t3a.medium
